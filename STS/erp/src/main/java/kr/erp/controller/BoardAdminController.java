@@ -1,5 +1,7 @@
 package kr.erp.controller;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,9 +32,18 @@ public class BoardAdminController {
 		
 	}
 	
-	@PostMapping("/add")
-	public void add(BoardAdminVO vo ,Model model) 
+	@PostMapping("/addajax")
+	public ResponseEntity<String>  addajax(BoardAdminVO vo ,Model model) 
 	{
+		int row =service.add(vo);
+		if(row>0)
+		{
+			return new ResponseEntity<String>("succuess", HttpStatus.OK);
+		}
+		else
+		{
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
 		
 	}
 	

@@ -19,6 +19,8 @@
 
     <!-- Custom styles for this template-->
     <link href="/resources/admin/css/sb-admin-2.min.css" rel="stylesheet">
+    <script  src="/resources/admin/vendor/jquery/jquery.js"></script>
+    <script  src="/resources/admin/vendor/bootstrap/js/bootstrap.js"></script>
 
 </head>
 

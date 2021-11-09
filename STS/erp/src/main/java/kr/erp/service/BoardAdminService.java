@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import kr.erp.mapper.BoardAdminMapper;
-import kr.erp.vo.BoardAdmin;
 import kr.erp.vo.BoardAdminVO;
 import lombok.Setter;
 
