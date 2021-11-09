@@ -1,0 +1,8 @@
+package kr.erp.controller;
+@Log4j
+@Controller
+@RequestMapping("/board/*")
+@AllArgsConstructor
+public class BoardAdminController {
+
+}

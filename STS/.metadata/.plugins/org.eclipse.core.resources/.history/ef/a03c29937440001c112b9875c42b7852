@@ -1,0 +1,7 @@
+package kr.erp.service;
+
+import kr.erp.vo.EmailDTO;
+
+public interface EmailService {
+	void sendMail(EmailDTO dto);
+}

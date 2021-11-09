@@ -1,0 +1,12 @@
+package kr.erp.mapper;
+
+import kr.erp.vo.BoardAdmin;
+
+public interface BoardAdminMapper {
+
+	public int add(BoardAdmin vo);
+	
+	
+	public List<BoardAdmin> select();
+	
+}
