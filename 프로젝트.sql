@@ -5,7 +5,7 @@ grant connect,resource,dba to project;
 alter user project identified by "1234";
 
 commit;
---게시판 관리 
+--게시판 관리 --kr
 Create Table tbl_boardAdmin
 (
  code Number 	primary key ,
