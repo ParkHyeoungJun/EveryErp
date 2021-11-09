@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.erp.mapper.MemberMapper">
+	<resultMap type="kr.erp.model.MemberVO" id="MemberMap">
+		<id property="useid" column="useid" />
+		<result property="userpw" column="userpw" />
+		<result property="username" column="username" />
+		<result property="zip1" column="zip1" />
+		<result property="zip2" column="zip2" />
+		<result property="email" column="email" />
+		<result property="hp" column="hp" />
+		<result property="addr1" column="addr1" />
+		<result property="addr2" column="addr2" />
+		<result property="regdate" column="regdate" />
+		<result property="updatedate" column="updatedate" />
+		<result property="enabled" column="enabled" />
+		<result property="cnt" column="cnt" />
+	</resultMap>
+	<insert id="insert">
+		inesrt into tbl_member
+		(
+		USERID
+		,USERPW
+		,USERNAME
+		,ZIP1
+		,ZIP2
+		,EMAIL
+		,HP
+		,ADDR1
+		,ADDR2
+		,REGDATE
+		,UPDATEDATE
+		ENABLED
+		)
+		Values
+		(
+		#{userid}
+		,#{userpw}
+		,#{username}
+		,#{zip1}
+		,#{zip2}
+		,#{email}
+		,#{hp}
+		,#{addr1}
+		,#{addr2}
+		,#{regdate}
+		,#{updatedate}
+		#{enabled}
+		)
+	</insert>
+	<update id="update">
+		update tbl_member set
+		userpw =#{userpw}
+		,username
+		=#{username}
+		,zip1=#{zip1}
+		,zip2=#{zip2}
+		,email=#{email}
+		,hp=#{hp}
+		,addr1=#{addr1}
+		,addr2=#{addr2}
+		,updatedate = sysdate
+		Where userid=#{userid}
+	</update>
+	<delete id="delete">
+		delete tbl_member
+		Where userid= #{userid}
+	</delete>
+	<select id="login" resultMap="MemberMap">
+		Select * from tbl_member Where userid=#{userid} and userpwd=#{userpw}
+	</select>
+	<select id="useridcheck" resultMap="MemberMap">
+		Select * from tbl_member Where userid=#{userid}
+	</select>
+</mapper>

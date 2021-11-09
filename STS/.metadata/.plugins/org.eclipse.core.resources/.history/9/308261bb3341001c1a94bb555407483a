@@ -1,0 +1,5 @@
+package kr.erp.security;
+
+public interface BoardAdminMapper {
+
+}

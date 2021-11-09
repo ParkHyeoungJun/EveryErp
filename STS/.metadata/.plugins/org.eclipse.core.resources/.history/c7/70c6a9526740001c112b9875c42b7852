@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>email 연동 테스트 </title>
+<script src="/resources/jquery/jquery.js"></script>
+</head>
+<body>
+<form action="" method="post"></form>
+</body>
+</html>

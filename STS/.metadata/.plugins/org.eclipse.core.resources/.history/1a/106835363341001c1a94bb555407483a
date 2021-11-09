@@ -1,0 +1,5 @@
+package kr.erp.vo;
+
+public class BoardAdminVO {
+
+}

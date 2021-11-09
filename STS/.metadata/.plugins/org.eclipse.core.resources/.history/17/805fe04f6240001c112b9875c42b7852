@@ -1,0 +1,5 @@
+package kr.erp.service;
+
+public class EmailServiceImpl implements EmailService {
+
+}

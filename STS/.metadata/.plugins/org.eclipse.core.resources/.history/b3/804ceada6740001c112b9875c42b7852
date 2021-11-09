@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>email 연동 테스트 </title>
+<script src="/resources/jquery/jquery.js"></script>
+</head>
+<body>
+<form action="/email/send" method="post">
+<input type="text" name="senderName" value="박형준"><br>
+<input type="text" name="senderMail" value="phj830914@gmail.com"><br>
+<input type="text" name="receiveMail" value="phj830914@gmail.com"><br>
+<input type="text" name="subject" value="제목"><br>
+<textarea rows="30" cols="50">email 발송 테스트 !!!</textarea>
+<button type="submit"></button>
+</form>
+</body>
+</html>

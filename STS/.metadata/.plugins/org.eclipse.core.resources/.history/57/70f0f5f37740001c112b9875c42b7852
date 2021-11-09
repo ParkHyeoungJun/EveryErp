@@ -1,0 +1,7 @@
+package kr.erp.mapper;
+
+public interface BoardAdminMapper {
+
+	public int add(BoardAdmin vo);
+	
+}

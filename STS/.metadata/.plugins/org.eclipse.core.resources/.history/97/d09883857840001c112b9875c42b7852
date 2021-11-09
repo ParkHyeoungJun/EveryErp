@@ -1,0 +1,5 @@
+package kr.erp.controller;
+
+public class BoardAdminController {
+
+}
