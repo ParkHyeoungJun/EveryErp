@@ -1,7 +1,0 @@
-package kr.erp.service;
-
-import kr.erp.mapper.BoardAdminMapper;
-
-public class BoardAdminService implements BoardAdminMapper{
-
-}

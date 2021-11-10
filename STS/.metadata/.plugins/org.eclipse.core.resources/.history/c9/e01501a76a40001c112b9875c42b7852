@@ -1,8 +1,0 @@
-package kr.erp.controller;
-@Log4j
-@Controller
-@RequestMapping("/email/*")
-@AllArgsConstructor
-public class EmailController {
-
-}

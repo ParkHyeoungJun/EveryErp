@@ -1,5 +1,0 @@
-package kr.erp.service;
-
-public interface EmailService {
-
-}
