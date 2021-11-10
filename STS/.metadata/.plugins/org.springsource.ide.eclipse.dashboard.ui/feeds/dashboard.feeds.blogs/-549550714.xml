@@ -5,7 +5,35 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-11-08T19:00:00Z</updated>
+  <updated>2021-11-09T21:00:00Z</updated>
+  <entry>
+    <title>This Week in Spring - November 9th, 2021</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/11/09/this-week-in-spring-november-9th-2021" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-11-09:4598</id>
+    <updated>2021-11-09T21:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! How&amp;rsquo;re you doin&amp;rsquo;? I&amp;rsquo;m doing alright! It&amp;rsquo;s been raining cats and dogs here in San Francisco. California, the state where I live, dearly needs the rain, so it&amp;rsquo;s a positive, I suppose. But it still feels miserable. Between the daylights savings time shortening the daylight significantly and the rain, it&amp;rsquo;s a gloomy kind of day. At least there&amp;rsquo;s a lot of good stuff to read! Let&amp;rsquo;s dive right into it! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/11/04/bootiful-podcast-legend-dutchess-founder-devoxx4kids-contributor-and-fellow-java-champion-linda-van-der-pal"&gt;Bootiful Podcast: Legend, Dutchess founder, Devoxx4Kids contributor, and fellow Java Champion Linda van der Pal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://auth0.com/blog/full-stack-java-with-react-spring-boot-and-jhipster/"&gt;Full Stack Java with React, Spring Boot, and JHipster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/oracle-coherence/hello-coherence-bootiful-spring-be83554b3859"&gt;Hello, Coherence ? Bootiful Spring &lt;/a&gt; by Oracle&amp;rsquo;s Gunnar Hillert, a legend.&lt;/li&gt;
+  &lt;li&gt;Check out the videos from the recent &lt;a href="https://www.youtube.com/c/reactivesummit"&gt;Reactive Summit&lt;/a&gt;. I was the emcee and the day two keynoter, along with my friend and Google&amp;rsquo;s James Ward.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://itnext.io/running-spring-boot-apps-start-tracing-with-opentelemetry-in-minutes-a5d3dffc1ce1"&gt;Running Spring Boot Apps? Start Tracing with OpenTelemetry in Minutes!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/11/03/spring-cloud-2021-0-0-rc1-codename-jubilee-has-been-released"&gt;Spring Cloud 2021.0.0-RC1 (codename Jubilee) Has Been Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/11/05/spring-cloud-data-flow-2-8-4-and-2-9-1-released"&gt;Spring Cloud Data Flow 2.8.4 and 2.9.1 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/11/04/spring-cloud-gateway-versions-2-2-10-release-and-3-0-5-are-now-available"&gt;Spring Cloud Gateway versions 2.2.10.RELEASE and 3.0.5 are now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/11/03/spring-tips-controllers-give-http-a-rest"&gt;Spring Tips: @Controllers: Give HTTP a REST&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://deinum.biz/2021-11-05-Component-Scanning/"&gt;The power of component scanning in Spring&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/11/08/update-on-eol-for-spring-security-oauth"&gt;Update on EOL for Spring Security OAuth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I&amp;rsquo;ll be speaking at the upcoming &lt;a href="https://twitter.com/yow_conf/status/1456410939327188994?s=12"&gt;YOW! Conferences&lt;/a&gt;. Join us!&lt;/li&gt;
+  &lt;li&gt;This is an interesting, optimized-for-certain-usecases alternative to &lt;code&gt;@MockBean&lt;/code&gt;: &lt;a href="https://github.com/antoinemeyer/mock-in-bean"&gt;antoinemeyer/mock-in-bean: Surgically Inject Mockito Mock/Spy in Spring Beans&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/VMware/status/1456302723503173636"&gt;Michael Cot? thinks 2022 will be year of figuring out kubernetes for developers, &amp;ldquo;DevX&amp;rdquo; or whatever. &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Update on EOL for Spring Security OAuth</title>
     <link rel="alternate" href="https://spring.io/blog/2021/11/08/update-on-eol-for-spring-security-oauth" />
@@ -816,22 +844,6 @@ items:&#xD;
 &lt;p&gt;Thanks to all those who have contributed with issue reports and pull requests. Spring Boot 2.6.0 is due to be released Nov 18, 2021.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/2.6.0-RC1/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Boot 2.5.6 is now available</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/10/21/spring-boot-2-5-6-is-now-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2021-10-21:4577</id>
-    <updated>2021-10-21T13:17:00Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Update (2021-10-26):&lt;/strong&gt; Multiple Spring projects included in this release contain fixes for security issues. Please, read the related &lt;a href="https://spring.io/blog/2021/10/26/security-reports-for-spring-framework-spring-data-rest-spring-amqp-and-spring-cloud-openfeign"&gt;announcement&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;2.5.6&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
-&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.5.6"&gt;43 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
-&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/2.5.6/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

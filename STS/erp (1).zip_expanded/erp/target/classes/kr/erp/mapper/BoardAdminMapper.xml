@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.erp.mapper.BoardAdminMapper">
+	<insert id="add">
+	insert into tbl_boardadmin
+		(
+		code ,
+		reply ,
+		answer ,
+		editor ,
+		attach ,
+		Declar ,
+		auth ,
+		Title ,
+		writer ,
+		day ,
+		ip
+		)
+		Values
+		(
+		BoardAdmin_seq.nextval,
+		#{reply} ,
+		#{answer} ,
+		#{editor} ,
+		#{attach} ,
+		#{declar} ,
+		#{auth} ,
+		#{title} ,
+		#{writer} ,
+		sysdate ,
+		#{ip}
+		)
+
+	</insert>
+	
+	<select id="select" resultType="kr.erp.vo.BoardAdminVO">
+		select * from tbl_boardadmin order by code desc
+	</select>
+</mapper>
+  
