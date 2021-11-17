@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.erp.mapper.MemberMapper">
+
+	<insert id="register">
+		insert into tbl_member(userid, userpw, username, sex, birth, email, zip, addr1, addr2, phone, hp, dept, job, day) 
+		Values (#{userid}, #{userpw}, #{username}, #{sex}, #{birth}, #{email}, #{zip}, #{addr1}, #{addr2}, #{phone}, #{hp}, #{dept}, #{job}, sysdate)
+	</insert>
+
+	<select id="id_check" resultType="String">
+		select userid from tbl_member
+		where userid = #{userId}
+	</select>
+	
+</mapper>
